@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Incluye Font Awesome para los íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="sidebar" class="sidebar">
+            <ul class="menu">
+                <li><a href="#" onclick="showSection('inicio')"><i class="fas fa-home"></i><span>Inicio</span></a></li>
+                <li><a href="#" onclick="showSection('servicios')"><i class="fas fa-concierge-bell"></i><span>Servicios</span></a></li>
+                <li id="registro-link"><a href="#" onclick="showSection('registro')"><i class="fas fa-user-plus"></i><span>Registro</span></a></li>
+                <li id="login-link"><a href="#" onclick="showSection('login')"><i class="fas fa-sign-in-alt"></i><span>Inicio de Sesión</span></a></li>
+                <li><a href="#" onclick="showSection('contactanos')"><i class="fas fa-envelope"></i><span>Contáctanos</span></a></li>
+                <li><a href="#" onclick="showSection('dashboard')"><i class="fas fa-chart-line"></i><span>Dashboard</span></a></li>
+                <!-- Nuevo acceso para Administrador -->
+                <li><a href="#" onclick="showSection('admin')"><i class="fas fa-user-shield"></i><span>Administrador</span></a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo Empresa">
+                </div>
+                <div class="login">
+                    <a href="#" id="session-link">Iniciar Sesión</a>
+                </div>
+            </div>
+
+            <!-- Sección de inicio -->
+            <div id="inicio" class="content section active">
+                <div class="hero-image">
+                    <h1>Innovando el campo junto a ti.</h1>
+                    <p>Lo que necesitas para manejar un negocio de campo de alto impacto.</p>
+                </div>
+                <div class="business-benefits centered">
+                    <p class="single-line">La ganadería puede ser un negocio altamente rentable con la guía correcta.</p>
+
+                    <div class="benefit-row">
+                        <div class="benefit-item">
+                            <i class="fas fa-glass-whiskey"></i> 
+                            <p>Tranquilidad sobre tus resultados mes a mes.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-chart-line"></i> 
+                            <p>Mayor rentabilidad en cada uno de tus negocios ganaderos.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-seedling"></i> 
+                            <p>Mejores operaciones, mejores procesos, menos errores.</p>
+                        </div>
+                    </div>
+
+                    <div class="cta">
+                        <button onclick="scheduleCall()"><strong>PROGRAMA TU LLAMADA</strong></button>
+                        <!-- Ventana Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Programa tu llamada</h2>
+        <form id="callForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" required>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" required>
+
+            <label for="provincia">Provincia:</label>
+            <select id="provincia" required>
+                <option value="">Selecciona una provincia</option>
+                <option value="Azuay">Azuay</option>
+                <option value="Bolívar">Bolívar</option>
+                <option value="Cañar">Cañar</option>
+                <option value="Carchi">Carchi</option>
+                <option value="Chimborazo">Chimborazo</option>
+                <option value="Esmeraldas">Esmeraldas</option>
+                <option value="Galápagos">Galápagos</option>
+                <option value="Guayas">Guayas</option>
+                <option value="Imbabura">Imbabura</option>
+                <option value="Loja">Loja</option>
+                <option value="Los Ríos">Los Ríos</option>
+                <option value="Manabí">Manabí</option>
+                <option value="Morona Santiago">Morona Santiago</option>
+                <option value="Napo">Napo</option>
+                <option value="Orellana">Orellana</option>
+                <option value="Pastaza">Pastaza</option>
+                <option value="Pichincha">Pichincha</option>
+                <option value="Tungurahua">Tungurahua</option>
+                <option value="Zamora-Chinchipe">Zamora-Chinchipe</option>
+            </select>
+
+            <label for="requerimiento">Requerimiento:</label>
+            <textarea id="requerimiento" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="thank-you-message" style="display: none;">
+            <p>Estamos ansiosos por hablar contigo</p>
+            <p>¡Gracias! Nos pondremos en contacto contigo lo antes posible!</p>
+        </div>
+    </div>
+</div>
+
+                    </div>
+
+                    <p class="experience"><strong>Creemos que las ganaderías deben ser potenciadas por su asesor, no abrumadas por él.</strong></p>
+                    <p class="experience">Con 30 años de experiencia, nos especializamos en apoyarte con:</p>
+                    <img src="images/1.png" alt="Descripción de la imagen" class="full-width-image">
+
+                    <!-- Nuevo encabezado para las marcas de ganadería -->
+                    <div class="brands-header">
+                        <div class="brands-container">
+                            <div class="brand-item"><img src="images/brand1.jpg" alt="Marca 1"></div>
+                            <div class="brand-item"><img src="images/brand2.jpg" alt="Marca 2"></div>
+                            <div class="brand-item"><img src="images/brand3.jpg" alt="Marca 3"></div>
+                            <div class="brand-item"><img src="images/brand4.jpg" alt="Marca 4"></div>
+                            <div class="brand-item"><img src="images/brand5.jpg" alt="Marca 5"></div>
+                            <div class="brand-item"><img src="images/brand6.jpg" alt="Marca 6"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intercalado-section">
+                    <div class="section-title">
+                        <h2>¿No sería maravilloso que cada nuevo paso te acerque a lograr tus objetivos?</h2>
+                    </div>
+                    <div class="intercalado-content">
+                        <div class="text-image">
+                            <div class="text-content">
+                                <p>Optimiza lo que tienes. Tal vez llevas un tiempo manejando una operación y las mejoras no se han dado gradualmente. Si es así, es hora de poner un ojo profesional en tus costos para ajustar su rentabilidad.</p>
+                            </div>
+                            <div class="image-content">
+                                <img src="images/i1.jpg" alt="Imagen 1">
+                            </div>
+                        </div>
+                        <div class="text-image reverse">
+                            <div class="text-content">
+                                <p>Crece tu operación lechera. Como muchas empresas en estos días, es posible que estés ampliando, posicionándote intencionalmente para el crecimiento. Pero, ¿tienes los servicios y maquinaria que necesitarás a medida que escalas?</p>
+                            </div>
+                            <div class="image-content">
+                                <img src="images/i2.jpg" alt="Imagen 2">
+                            </div>
+                        </div>
+                        <div class="text-image">
+                            <div class="text-content">
+                                <p>Hacienda Nueva. O tal vez recién estás comenzando tu negocio ganadero y deseas asegurarte de que el sistema de producción funcione desde el principio. Diseñamos operaciones con diferentes sistemas de producción que apunten a tus objetivos desde el inicio: tanto para engorde como para producción lechera.</p>
+                            </div>
+                            <div class="image-content">
+                                <img src="images/i3.jpg" alt="Imagen 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+<!-- Nuevo texto y botón al final -->
+<div class="final-cta-box">
+    <div class="final-cta">
+        <h2><strong>El primer paso está a un click</strong></h2>
+        <p>Queremos conocerte mejor. Cuéntanos qué necesitas actualmente y cómo podemos apoyarte para alcanzar tus objetivos.</p>
+        <a href="javascript:void(0);" class="cta-button" onclick="scheduleCall()">DAR EL PRIMER PASO</a>
+    </div>
+</div>
+</div>
+
+
+         <!-- Sección de servicios -->
+<div id="servicios" class="content section">
+    <h1>Nuestros Servicios</h1>
+
+    <!-- Servicio: Pasturas -->
+    <div class="service-card" onclick="toggleService('pasturas')">
+        <h2>Pasturas</h2>
+        <p>Clic para más detalles</p>
+        <div id="pasturas" class="service-details">
+            <h3>Pasturas Certificadas</h3>
+            <p>Semillas Certificadas y Probadas. ¿Quieres los mejores pastos para tus vacas? No hay problema, te tenemos cubierto.</p>
+
+            <div class="collage">
+                <img src="images/pasto1.jpg" alt="Pastura 1">
+                <img src="images/pasto2.jpg" alt="Pastura 2">
+                <img src="images/pasto3.jpg" alt="Pastura 3">
+                <img src="images/pasto4.jpg" alt="Pastura 4">
+                <img src="images/pasto5.jpg" alt="Pastura 5">
+                <img src="images/pasto6.jpg" alt="Pastura 6">
+                <img src="images/pasto7.jpg" alt="Pastura 7">
+                <img src="images/pasto8.jpg" alt="Pastura 8">
+            </div>
+
+            <div class="two-columns-texts">
+                <div class="left-column">
+                    <div class="text-block">
+                        <h4>¿Ryegrass Perenne?</h4>
+                        <p>Los Ryegrass se clasifican por su tiempo de vida y permanencia en los potreros. Todas las variedades contienen un porcentaje especifico de perennidad.
+                            Ciertas variedades de ryegrass 100% perenne, permiten establecimiento de potreros con menor cantidad de semilla (35 kg/ha – 77 lb/ha), tienen rápido establecimiento y cobertura de suelo por su capacidad de macollamiento; se asocian  con otras especies como tréboles, llantén y gramíneas, tienen una alta calidad nutricional y producción de materia seca en comparación con variedades con porcentajes menores de perenidad.</p>
+                    </div>
+                    <div class="text-block">
+                        <h4>¿Ryegrass Anual?</h4>
+                        <p>Como su nombre lo dice, los Ryegrass Anuales son especies forrajeras con permanencia en  potreros de máximo un año.
+                            Esta especie se utiliza generalmente para períodos cortos de producción de forraje y para períodos de déficit de alimento. Su contenido de fibra y calidad forrajera es generalmente inferior al de pasturas con un % mayor de perennidad, por lo tanto su establecimiento es puramente estratégico.</p>
+                    </div>
+                    <div class="text-block">
+                        <h4>¿Brassica Forrajera?</h4>
+                        <p>Las Brassicas Forrajeras son forrajes desarrollados para complementar dietas y se lo puede aprovechar en pastoreo o corte. Es un alimento de alto nivel energético (3.0 Mcal EM) y gran producción (9 - 15 Tm MS/ha ).
+                            Es muy útil en épocas de déficit forrajero (verano) o como cultivo de rotación previo al establecimiento de una pastura.</p>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="text-block">
+                        <h4>¿Trébol?</h4>
+                        <p>El Trébol es una leguminosa que fija Nitrógeno al suelo y que aporta con un excelente valor nutricional (36% de FDN, 23% Proteína, 3.0 Mcal EM) al combinarlo con las gramíneas u otras especies forrajeras.
+                            La selección correcta de la variedad de trébol, permitirá una asociación equilibrada y un aporte en calidad y cantidad de forraje importante.
+                            Los tréboles blancos son 100% perennes y los tréboles rojos son bianuales. Por esta razón, su selección dependerá de los objetivos y estrategias planificadas por el predio lechero.</p>
+                    </div>
+                    <div class="text-block">
+                        <h4>¿Llantén?</h4>
+                        <p>El Llantén Forrajero Erecto, es una especie seleccionada por su alta calidad nutricional (36% FDN, 22% Proteína, 2.8 Mcal EM), alta palatabilidad (elevado % de cosecha), excelente producción de materia seca (>55 kgMS/ha/día) y alta tolerancia al estrés hídrico (sistema radicular profundo).
+                            Su crecimiento erecto facilita su asociación  con otras especies.</p>
+                    </div>
+                    <div class="text-block">
+                        <h4>¿Ploidía?</h4>
+                        <p>Los Ryegrass se clasifican por su Ploidía:  Ryegrasses Tetraploides y Ryegrasses Diploides.
+                            La gran diferencia está en el tamaño de sus células y contenido cromosómico. Ámbos tipos de ryegrass se verán favorecidos por factores como condiciones específicas de humedad, tipo de suelo, disponibilidad de agua de riego y medio ambiente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Servicio: Ordeño y Tecnología -->
+    <div class="service-card" onclick="toggleService('ordenotecnologia')">
+        <h2>Ordeño y Tecnología</h2>
+        <p>Clic para más detalles</p>
+        <div id="ordenotecnologia" class="service-details">
+            <h1 class="blue-header">Salas de Ordeño</h1>
+            <h2 class="main-title">Tus animales se merecen lo mejor. Tu sala de ordeño debe buscar el confort y la tranquilidad para tus animales.</h2>
+            <div class="image-text-section">
+                <div class="text-content">
+                    <h3>Mejor diseño, mejores resultados</h3>
+                    <p>Con tus objetivo en mente, definimos capacidad de ordeño.
+                        Buscamos que cumplas las metas de tu ganadería.</p>
+                </div>
+                <div class="image-content">
+                    <img src="images/ordeño.jpg" alt="Sala de Ordeño">
+                </div>
+            </div>
+            <div class="video-section">
+                <h3>Midi Line DeLaval</h3>
+                <video autoplay muted>
+                    <source src="images/Ordeño Sistema Espina de Pescado Doble 05  Legend - Linea Baja.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+            <div class="image-text-section">
+                <div class="text-content">
+                    <h3>Productos de limpieza y desinfección</h3>
+                    <p>Mantén la higiene en tu sala de ordeño...</p>
+                    <button>Conoce más sobre la línea de químicos</button>
+                </div>
+                <div class="image-content">
+                    <img src="images/limpieza.jpg" alt="Productos de limpieza y desinfección">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Servicio: Riego -->
+    <div class="service-card" onclick="toggleService('riego')">
+        <h2>Riego</h2>
+        <p>Clic para más detalles</p>
+        <div id="riego" class="service-details">
+            <div class="header">
+                <h2>Diseñado para que cada gota cuente</h2>
+            </div>
+            <div class="intro-text">
+                <p>Una opción diferente que te deja dormir tranquil@. Entendemos las necesidades del suelo y de tu cultivo. Pero además, tenemos claro que nuestros clientes buscan alta rentabilidad, y eso prevalece en nuestras opciones.</p>
+            </div>
+            <div class="media-collage">
+                <video src="images/K Line Irrigation at Watermaster.mp4" autoplay muted></video>
+                <img src="images/riego1.jpg" alt="Imagen 1">
+                <img src="images/riego2.jpg" alt="Imagen 2">
+                <img src="images/riego3.jpg" alt="Imagen 3">
+            </div>
+            <div class="central-text">
+                <h3>K-Line Pasturas: la solución a largo plazo para más forraje</h3>
+                <ul>
+                    <li>La única solución HeavyDuty que funciona durante años junto a tus animales en pastoreo.</li>
+                    <li>Su manejo rápido y diseño customizado aseguran que produzcas más con menos mano de obra.</li>
+                    <li>Nuestro pod patentado nunca se desarma con el maltrato de tus animales.</li>
+                    <li>Desde propiedades de 1ha hasta extensiones de 1000has, K-Line se adapta a tu necesidad.</li>
+                </ul>
+                <button>¿Quieres más información?</button>
+            </div>
+            <div class="left-title">
+                <h4>K-Line Maíz y K-Line Cultivos</h4>
+            </div>
+            <div class="collage-4-images">
+                <img src="images/riego4.jpg" alt="Imagen 4">
+                <img src="images/riego5.jpg" alt="Imagen 5">
+                <img src="images/riego6.jpg" alt="Imagen 6">
+                <img src="images/riego7.jpg" alt="Imagen 7">
+            </div>
+            <div class="index">
+                <p>Pods con elevadores que funcionan para cultivos de hasta 2m de altura...</p>
+                <ul>
+                    <li>Diseño para un solo cultivo o varios durante el año...</li>
+                    <li>Posibilidad de riego de cultivos y pasturas bajo el mismo sistema...</li>
+                    <li>Menor mano de obra y mayor uniformidad al momento de regar...</li>
+                </ul>
+            </div>
+            <div class="center-title">
+                <h3>Los efluentes de tu operación: manejados correctamente</h3>
+                <p>Desde el diseño de la separación de sólidos hasta la rutina de aplicación...</p>
+            </div>
+            <div class="collage-square">
+                <img src="images/riego8.jpg" alt="Imagen 8">
+                <img src="images/riego9.jpg" alt="Imagen 9">
+                <img src="images/riego10.jpg" alt="Imagen 10">
+            </div>
+            <div class="solicitud-button">
+                <button>Solicita asesoramiento</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Servicio: Cercado -->
+    <div class="service-card" onclick="toggleService('cercado')">
+        <h2>Cercado</h2>
+        <p>Clic para más detalles</p>
+        <div id="cercado" class="service-details">
+            <h2>¡Desgastante!
+                Cuando tu cerca eléctrica no funciona correctamente, el desorden puede impactar a todo tu negocio. Tal vez te ha pasado...
+                ¿Te preocupa que tus animales amanezcan pastoreando zonas que no deberían?
+                ¿No sabes si la asignación de comida está correctamente medida?
+                ¿Sientes que tu cerca está hecha para que tus colaboradores cometan errores?</h2>
+            <div class="media-collage">
+                <video src="images/cercado_electrico.mp4" autoplay muted></video>
+                <img src="images/1.jpg" alt="Cercado eléctrico">
+                <img src="images/2.jpg" alt="Postes de cercado">
+                <img src="images/3.jpg" alt="Instalación de cercado">
+            </div>
+            <div class="header">
+                <h3>Cercado Eléctrico: La solución moderna para el manejo de pasturas</h3>
+                <ul>
+                    <li>Fácil de instalar y mover...</li>
+                    <li>Ahorra en costos de mano de obra...</li>
+                    <li>Opciones solares disponibles...</li>
+                </ul>
+            </div>
+            <div class="solicitud-button">
+                <button>Descubre nuestras opciones de cercado eléctrico</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Sección de Registro -->
+<div id="registro" class="content section">
+    <h1>Regístrate con Nosotros</h1>
+    <form action="php/register.php" method="post">
+        <label for="first-name">Nombre:</label>
+        <input type="text" id="first-name" name="first-name" required>
+        
+        <label for="last-name">Apellido:</label>
+        <input type="text" id="last-name" name="last-name" required>
+        
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@(gmail\.com|hotmail\.com|yahoo\.com)" title="El correo electrónico debe ser de Gmail, Hotmail o Yahoo." required>
+        
+        <label for="phone">Teléfono:</label>
+        <input type="tel" id="phone" name="phone" pattern="\d{10}" title="El número de teléfono debe tener exactamente 10 dígitos." required>
+        
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" pattern="(?=.*[A-Z]).{7,12}" title="La contraseña debe tener entre 7 y 12 caracteres y al menos una letra mayúscula." required>
+        
+        <button type="submit">Registrarse</button>
+    </form>
+</div>
+
+<!-- Sección de Inicio de Sesión -->
+<div id="login" class="content section">
+    <h1>Inicio de Sesión</h1>
+    <form action="javascript:void(0);" onsubmit="login()">
+        <label for="email-login">Correo:</label>
+        <input type="email" id="email-login" name="email" required>
+        
+        <label for="password-login">Contraseña:</label>
+        <input type="password" id="password-login" name="password" required>
+        
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+</div>
+
+<!-- Sección de Contactanos -->
+<div id="contactanos" class="content section">
+    <h1>Contáctanos</h1>
+    <div class="content-container">
+        <div class="text-container">
+            <p>Apostamos por el desarrollo de nuestro sector ganadero, la capacitación </p>
+            <p>de nuestra gente y la excelencia en nuestra oferta. Ofrecemos equipos e </p>
+            <p>insumos garantizados para satisfacer las necesidades del sector con servicio</p>
+            <p>personalizado, asistencia técnica e innovación tecnológica respaldada por soporte</p>
+            <p>internacional.</p>
+        </div>
+        <div class="form-container">
+            <form action="https://formsubmit.co/alexisjavierpazmino@gmail.com" method="POST">
+                <div class="form-row">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <input type="submit" value="ENVIAR">
+            </form>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1695419942121!6m8!1m7!1sBvVUjOiu4bko2N6IGex_6w!2m2!1d0.6619501222079942!2d-77.7180749784763!3f354!4f0!5f0.7820865974627469" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>        
+        <div class="privacy-policy-link">
+            <a href="politica-privacidad.html">Política de Privacidad</a>
+        </div>
+        <div style="text-align: center; margin-top: 20px;">
+            <img src="images/qr.png" alt="Imagen de WhatsApp" style="max-width: 250px;">
+            <p>CONTACTANOS POR WHATSAPP</p>
+        </div>
+    </div>
+</div>
+
+<!-- Sección de Dashboard -->
+<div id="dashboard" class="content section">
+    <h1>Dashboard</h1>
+    <div class="dashboard-grid">
+        <div class="dashboard-card">
+            <h3>Usuarios Registrados</h3>
+            <p id="total-users"></p>
+        </div>
+        <div class="dashboard-card">
+            <h3>Total de Productos</h3>
+            <p id="total-products"></p>
+        </div>
+        <div class="dashboard-card">
+            <h3>Valor Total del Inventario</h3>
+            <p id="total-inventory-value"></p>
+        </div>
+        <div class="dashboard-card">
+            <h3>Producto Más Caro</h3>
+            <p id="top-product"></p>
+        </div>
+    </div>
+    <div class="dashboard-charts">
+        <div id="products-chart"></div>
+        <div id="stock-chart"></div>
+    </div>
+</div>
+
+        
+
+
+    <!-- Sección de ADMINISTRADOR -->
+<div id="admin" class="content section">
+    <h1>Administrador</h1>
+    <div id="admin-login">
+        <h2>Inicia Sesion como Administrador</h2>
+        <form id="admin-login-form">
+            <label for="admin-code">Código de Acceso:</label>
+            <input type="password" id="admin-code" name="admin-code" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+    <div id="admin-content" style="display: none;">
+        <h2>Panel de Administración</h2>
+        <div id="admin-tabs">
+            <button class="tab-button" onclick="showTab('pasturas')">Pasturas</button>
+            <button class="tab-button" onclick="showTab('ordeño')">Ordeño</button>
+            <button class="tab-button" onclick="showTab('riego')">Riego</button>
+            <button class="tab-button" onclick="showTab('cercado')">Cercado</button>
+        </div>
+        
+        <div id="pasturas-tab" class="tab-content">
+            <h3>Pasturas</h3>
+            <table id="pasturas-table">
+                <thead>
+                    <tr>
+                        <th>Código de Barras</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Existencia</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <button onclick="showAddForm('pasturas')">Añadir Pastura</button>
+        </div>
+        
+        <div id="ordeno-tab" class="tab-content">
+            <h3>Ordeño</h3>
+            <table id="ordeno-table">
+                <thead>
+                    <tr>
+                        <th>Código de Barras</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Existencia</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <button onclick="showAddForm('ordeno')">Añadir Producto de Ordeño</button>
+        </div>
+        
+        <div id="riego-tab" class="tab-content">
+            <h3>Riego</h3>
+            <table id="riego-table">
+                <thead>
+                    <tr>
+                        <th>Código de Barras</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Existencia</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <button onclick="showAddForm('riego')">Añadir Producto de Riego</button>
+        </div>
+        
+        <div id="cercado-tab" class="tab-content">
+            <h3>Cercado</h3>
+            <table id="cercado-table">
+                <thead>
+                    <tr>
+                        <th>Código de Barras</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Existencia</th>                     
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <button onclick="showAddForm('cercado')">Añadir Producto de Cercado</button>
+        </div>
+    
+        <div id="edit-form" style="display: none;">
+            <!-- El formulario de edición se llenará dinámicamente con JavaScript -->
+        </div>
+    
+        <button id="admin-logout">Salir</button>
+    </div>
+    
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <script src="script.js"></script>

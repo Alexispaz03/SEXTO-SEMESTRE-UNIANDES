@@ -1,0 +1,733 @@
+[2024-09-11 17:41:04] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 17:41:04] Acción: read, Tabla: pasturas
+[2024-09-11 17:41:14] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"GH\",\"precio\":\"202\",\"existencia\":\"a\"}"}
+[2024-09-11 17:41:14] Acción: create, Tabla: pasturas
+[2024-09-11 17:41:14] Intentando crear: tabla=pasturas, data={"producto":"GH","precio":"202","existencia":"a"}
+[2024-09-11 17:41:14] SQL: INSERT INTO pasturas (producto, precio, existencia) VALUES (?, ?, ?)
+[2024-09-11 18:05:38] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"GH\",\"precio\":\"202\",\"existencia\":\"a\"}"}
+[2024-09-11 18:05:38] Acción: create, Tabla: pasturas
+[2024-09-11 18:05:38] Intentando crear: tabla=pasturas, data={"producto":"GH","precio":"202","existencia":"a"}
+[2024-09-11 18:05:38] SQL: INSERT INTO pasturas (producto, precio, existencia) VALUES (?, ?, ?)
+[2024-09-11 18:05:40] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:05:40] Acción: read, Tabla: pasturas
+[2024-09-11 18:05:52] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"GH\",\"precio\":\"202\",\"existencia\":\"9\"}"}
+[2024-09-11 18:05:52] Acción: create, Tabla: pasturas
+[2024-09-11 18:05:52] Intentando crear: tabla=pasturas, data={"producto":"GH","precio":"202","existencia":"9"}
+[2024-09-11 18:05:52] SQL: INSERT INTO pasturas (producto, precio, existencia) VALUES (?, ?, ?)
+[2024-09-11 18:09:39] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:09:39] Acción: read, Tabla: pasturas
+[2024-09-11 18:09:45] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 18:09:45] Acción: read, Tabla: riego
+[2024-09-11 18:09:45] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:09:45] Acción: read, Tabla: cercado
+[2024-09-11 18:09:46] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:09:46] Acción: read, Tabla: pasturas
+[2024-09-11 18:09:51] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"A\",\"precio\":\"202\",\"existencia\":\"9\"}"}
+[2024-09-11 18:09:51] Acción: create, Tabla: pasturas
+[2024-09-11 18:09:51] Intentando crear: tabla=pasturas, data={"producto":"A","precio":"202","existencia":"9"}
+[2024-09-11 18:09:51] SQL: INSERT INTO pasturas (producto, precio, existencia) VALUES (?, ?, ?)
+[2024-09-11 18:09:51] Excepción no capturada: Duplicate entry '' for key 'PRIMARY'
+[2024-09-11 18:10:06] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"A\",\"precio\":\"202\",\"existencia\":\"9\"}"}
+[2024-09-11 18:10:06] Acción: create, Tabla: pasturas
+[2024-09-11 18:10:06] Intentando crear: tabla=pasturas, data={"producto":"A","precio":"202","existencia":"9"}
+[2024-09-11 18:10:06] SQL: INSERT INTO pasturas (producto, precio, existencia) VALUES (?, ?, ?)
+[2024-09-11 18:10:06] Excepción no capturada: Duplicate entry '' for key 'PRIMARY'
+[2024-09-11 18:13:07] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:13:07] Acción: read, Tabla: pasturas
+[2024-09-11 18:13:12] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:13:12] Acción: read, Tabla: pasturas
+[2024-09-11 18:13:14] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 18:13:14] Acción: read, Tabla: riego
+[2024-09-11 18:13:14] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:13:14] Acción: read, Tabla: cercado
+[2024-09-11 18:13:21] Solicitud recibida: {"action":"create","table":"cercado","data":"{\"producto\":\"LECHE\",\"precio\":\"202\",\"existencia\":\"9\"}"}
+[2024-09-11 18:13:21] Acción: create, Tabla: cercado
+[2024-09-11 18:13:21] Intentando crear: tabla=cercado, data={"producto":"LECHE","precio":"202","existencia":"9"}
+[2024-09-11 18:13:21] SQL: INSERT INTO cercado (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-11 18:13:21] Creación exitosa
+[2024-09-11 18:13:22] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:13:22] Acción: read, Tabla: cercado
+[2024-09-11 18:13:24] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:13:24] Acción: read, Tabla: pasturas
+[2024-09-11 18:13:26] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:13:26] Acción: read, Tabla: cercado
+[2024-09-11 18:13:28] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:13:28] Acción: read, Tabla: pasturas
+[2024-09-11 18:13:33] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"A\",\"precio\":\"202\",\"existencia\":\"9\"}"}
+[2024-09-11 18:13:33] Acción: create, Tabla: pasturas
+[2024-09-11 18:13:33] Intentando crear: tabla=pasturas, data={"producto":"A","precio":"202","existencia":"9"}
+[2024-09-11 18:13:33] SQL: INSERT INTO pasturas (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-11 18:13:33] Creación exitosa
+[2024-09-11 18:13:34] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:13:34] Acción: read, Tabla: pasturas
+[2024-09-11 18:13:57] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"GH\",\"precio\":\"202\",\"existencia\":\"9999\"}"}
+[2024-09-11 18:13:57] Acción: create, Tabla: pasturas
+[2024-09-11 18:13:57] Intentando crear: tabla=pasturas, data={"producto":"GH","precio":"202","existencia":"9999"}
+[2024-09-11 18:13:57] SQL: INSERT INTO pasturas (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-11 18:13:57] Creación exitosa
+[2024-09-11 18:13:58] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:13:58] Acción: read, Tabla: pasturas
+[2024-09-11 18:14:08] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:14:08] Acción: read, Tabla: pasturas
+[2024-09-11 18:14:11] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 18:14:11] Acción: read, Tabla: riego
+[2024-09-11 18:14:12] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:14:12] Acción: read, Tabla: cercado
+[2024-09-11 18:17:57] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:17:57] Acción: read, Tabla: pasturas
+[2024-09-11 18:18:07] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:18:07] Acción: read, Tabla: pasturas
+[2024-09-11 18:22:47] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:22:47] Acción: read, Tabla: pasturas
+[2024-09-11 18:24:27] Solicitud recibida: []
+[2024-09-11 18:24:27] Acción: , Tabla: 
+[2024-09-11 18:24:27] Acción no reconocida: 
+[2024-09-11 18:25:13] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:25:13] Acción: read, Tabla: pasturas
+[2024-09-11 18:25:18] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:25:18] Acción: read, Tabla: pasturas
+[2024-09-11 18:25:19] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 18:25:19] Acción: read, Tabla: riego
+[2024-09-11 18:25:20] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:25:20] Acción: read, Tabla: cercado
+[2024-09-11 18:25:21] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:25:21] Acción: read, Tabla: pasturas
+[2024-09-11 18:25:26] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"A\",\"precio\":\"303\",\"existencia\":\"9999\"}"}
+[2024-09-11 18:25:26] Acción: create, Tabla: pasturas
+[2024-09-11 18:25:26] Intentando crear: tabla=pasturas, data={"producto":"A","precio":"303","existencia":"9999"}
+[2024-09-11 18:25:26] SQL: INSERT INTO pasturas (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-11 18:25:26] Creación exitosa
+[2024-09-11 18:25:27] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:25:27] Acción: read, Tabla: pasturas
+[2024-09-11 18:31:57] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:31:57] Acción: read, Tabla: pasturas
+[2024-09-11 18:32:07] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:32:07] Acción: read, Tabla: pasturas
+[2024-09-11 18:32:09] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 18:32:09] Acción: read, Tabla: riego
+[2024-09-11 18:32:10] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:32:10] Acción: read, Tabla: cercado
+[2024-09-11 18:33:36] Solicitud recibida: {"action":"read","table":"cercado","codigo_barras":"undefined"}
+[2024-09-11 18:33:36] Acción: read, Tabla: cercado
+[2024-09-11 18:33:39] Solicitud recibida: {"action":"delete","table":"cercado","codigo_barras":"undefined"}
+[2024-09-11 18:33:39] Acción: delete, Tabla: cercado
+[2024-09-11 18:33:39] Intentando eliminar: tabla=cercado, codigo_barras=undefined
+[2024-09-11 18:33:39] Eliminación exitosa
+[2024-09-11 18:33:40] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:33:40] Acción: read, Tabla: cercado
+[2024-09-11 18:33:42] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 18:33:42] Acción: read, Tabla: riego
+[2024-09-11 18:33:43] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:33:43] Acción: read, Tabla: cercado
+[2024-09-11 18:33:44] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:33:44] Acción: read, Tabla: pasturas
+[2024-09-11 18:34:43] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:34:43] Acción: read, Tabla: pasturas
+[2024-09-11 18:34:49] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:34:49] Acción: read, Tabla: cercado
+[2024-09-11 18:43:10] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:43:10] Acción: read, Tabla: cercado
+[2024-09-11 18:43:10] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 18:43:10] Acción: read, Tabla: riego
+[2024-09-11 18:43:12] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 18:43:12] Acción: read, Tabla: riego
+[2024-09-11 18:43:12] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:43:12] Acción: read, Tabla: cercado
+[2024-09-11 18:43:14] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:43:14] Acción: read, Tabla: pasturas
+[2024-09-11 18:43:26] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:43:26] Acción: read, Tabla: cercado
+[2024-09-11 18:43:27] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:43:27] Acción: read, Tabla: pasturas
+[2024-09-11 18:51:18] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:51:18] Acción: read, Tabla: pasturas
+[2024-09-11 18:51:27] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:51:27] Acción: read, Tabla: pasturas
+[2024-09-11 18:51:28] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 18:51:28] Acción: read, Tabla: riego
+[2024-09-11 18:51:29] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:51:29] Acción: read, Tabla: cercado
+[2024-09-11 18:51:37] Solicitud recibida: {"action":"create","table":"cercado","data":"{\"producto\":\"GH\",\"precio\":\"202\",\"existencia\":\"9999\"}"}
+[2024-09-11 18:51:37] Acción: create, Tabla: cercado
+[2024-09-11 18:51:37] Intentando crear: tabla=cercado, data={"producto":"GH","precio":"202","existencia":"9999"}
+[2024-09-11 18:51:37] SQL: INSERT INTO cercado (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-11 18:51:37] Creación exitosa
+[2024-09-11 18:51:39] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:51:39] Acción: read, Tabla: cercado
+[2024-09-11 18:52:15] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:52:15] Acción: read, Tabla: pasturas
+[2024-09-11 18:52:24] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:52:24] Acción: read, Tabla: cercado
+[2024-09-11 18:52:25] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 18:52:25] Acción: read, Tabla: riego
+[2024-09-11 18:52:27] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:52:27] Acción: read, Tabla: pasturas
+[2024-09-11 18:57:04] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:57:04] Acción: read, Tabla: pasturas
+[2024-09-11 18:57:04] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:57:04] Acción: read, Tabla: pasturas
+[2024-09-11 18:57:33] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:57:33] Acción: read, Tabla: pasturas
+[2024-09-11 18:57:41] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 18:57:41] Acción: read, Tabla: cercado
+[2024-09-11 18:57:42] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:57:42] Acción: read, Tabla: pasturas
+[2024-09-11 18:57:52] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 18:57:52] Acción: read, Tabla: pasturas
+[2024-09-11 19:00:35] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:00:35] Acción: read, Tabla: pasturas
+[2024-09-11 19:00:48] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"GH\",\"precio\":\"202\",\"existencia\":\"9999\"}"}
+[2024-09-11 19:00:48] Acción: create, Tabla: pasturas
+[2024-09-11 19:00:48] Intentando crear: tabla=pasturas, data={"producto":"GH","precio":"202","existencia":"9999"}
+[2024-09-11 19:00:48] SQL: INSERT INTO pasturas (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-11 19:00:48] Creación exitosa
+[2024-09-11 19:00:49] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:00:49] Acción: read, Tabla: pasturas
+[2024-09-11 19:01:02] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"8888\",\"precio\":\"888\",\"existencia\":\"88\"}"}
+[2024-09-11 19:01:02] Acción: create, Tabla: pasturas
+[2024-09-11 19:01:02] Intentando crear: tabla=pasturas, data={"producto":"8888","precio":"888","existencia":"88"}
+[2024-09-11 19:01:02] SQL: INSERT INTO pasturas (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-11 19:01:02] Creación exitosa
+[2024-09-11 19:01:03] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:01:03] Acción: read, Tabla: pasturas
+[2024-09-11 19:01:12] Solicitud recibida: {"action":"delete","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:01:12] Acción: delete, Tabla: pasturas
+[2024-09-11 19:01:12] Intentando eliminar: tabla=pasturas, codigo_barras=undefined
+[2024-09-11 19:01:12] Eliminación exitosa
+[2024-09-11 19:01:13] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:01:13] Acción: read, Tabla: pasturas
+[2024-09-11 19:01:17] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:01:17] Acción: read, Tabla: pasturas
+[2024-09-11 19:01:18] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:01:18] Acción: read, Tabla: pasturas
+[2024-09-11 19:01:22] Solicitud recibida: {"action":"read","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:01:22] Acción: read, Tabla: pasturas
+[2024-09-11 19:01:27] Solicitud recibida: {"action":"update","table":"pasturas","codigo_barras":"undefined","data":"{\"0\":\"[object Object]\",\"1\":\"[object Object]\",\"2\":\"[object Object]\",\"3\":\"[object Object]\",\"4\":\"[object Object]\",\"5\":\"[object Object]\",\"6\":\"[object Object]\"}"}
+[2024-09-11 19:01:27] Acción: update, Tabla: pasturas
+[2024-09-11 19:01:27] Excepción no capturada: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE codigo_barras = ?' at line 1
+[2024-09-11 19:01:39] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 19:01:39] Acción: read, Tabla: cercado
+[2024-09-11 19:01:40] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 19:01:40] Acción: read, Tabla: riego
+[2024-09-11 19:01:49] Solicitud recibida: {"action":"create","table":"riego","data":"{\"producto\":\"A\",\"precio\":\"as\",\"existencia\":\"1\"}"}
+[2024-09-11 19:01:49] Acción: create, Tabla: riego
+[2024-09-11 19:01:49] Intentando crear: tabla=riego, data={"producto":"A","precio":"as","existencia":"1"}
+[2024-09-11 19:01:49] SQL: INSERT INTO riego (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-11 19:01:49] Creación exitosa
+[2024-09-11 19:01:50] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 19:01:50] Acción: read, Tabla: riego
+[2024-09-11 19:01:52] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 19:01:52] Acción: read, Tabla: riego
+[2024-09-11 19:01:53] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 19:01:53] Acción: read, Tabla: cercado
+[2024-09-11 19:01:54] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:01:54] Acción: read, Tabla: pasturas
+[2024-09-11 19:02:19] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 19:02:19] Acción: read, Tabla: cercado
+[2024-09-11 19:10:42] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:10:42] Acción: read, Tabla: pasturas
+[2024-09-11 19:10:49] Solicitud recibida: {"action":"delete","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:10:49] Acción: delete, Tabla: pasturas
+[2024-09-11 19:10:50] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:10:50] Acción: read, Tabla: pasturas
+[2024-09-11 19:12:09] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:12:09] Acción: read, Tabla: pasturas
+[2024-09-11 19:12:20] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"8888\",\"precio\":\"202\",\"existencia\":\"88\"}"}
+[2024-09-11 19:12:20] Acción: create, Tabla: pasturas
+[2024-09-11 19:12:20] Intentando crear: tabla=pasturas, data={"producto":"8888","precio":"202","existencia":"88"}
+[2024-09-11 19:12:20] SQL: INSERT INTO pasturas (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-11 19:12:20] Creación exitosa
+[2024-09-11 19:12:21] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:12:21] Acción: read, Tabla: pasturas
+[2024-09-11 19:12:24] Solicitud recibida: {"action":"delete","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:12:24] Acción: delete, Tabla: pasturas
+[2024-09-11 19:12:25] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:12:25] Acción: read, Tabla: pasturas
+[2024-09-11 19:12:29] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:12:29] Acción: read, Tabla: pasturas
+[2024-09-11 19:12:42] Solicitud recibida: {"action":"delete","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:12:42] Acción: delete, Tabla: pasturas
+[2024-09-11 19:12:44] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:12:44] Acción: read, Tabla: pasturas
+[2024-09-11 19:12:47] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 19:12:47] Acción: read, Tabla: cercado
+[2024-09-11 19:12:49] Solicitud recibida: {"action":"delete","table":"cercado","codigo_barras":"undefined"}
+[2024-09-11 19:12:49] Acción: delete, Tabla: cercado
+[2024-09-11 19:12:50] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 19:12:50] Acción: read, Tabla: cercado
+[2024-09-11 19:12:51] Solicitud recibida: {"action":"read","table":"cercado","codigo_barras":"undefined"}
+[2024-09-11 19:12:51] Acción: read, Tabla: cercado
+[2024-09-11 19:12:53] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:12:53] Acción: read, Tabla: pasturas
+[2024-09-11 19:12:54] Solicitud recibida: {"action":"read","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:12:54] Acción: read, Tabla: pasturas
+[2024-09-11 19:12:56] Solicitud recibida: {"action":"read","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:12:56] Acción: read, Tabla: pasturas
+[2024-09-11 19:12:56] Solicitud recibida: {"action":"read","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:12:56] Acción: read, Tabla: pasturas
+[2024-09-11 19:17:34] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:17:34] Acción: read, Tabla: pasturas
+[2024-09-11 19:18:00] Solicitud recibida: {"action":"delete","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:18:00] Acción: delete, Tabla: pasturas
+[2024-09-11 19:18:02] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:18:02] Acción: read, Tabla: pasturas
+[2024-09-11 19:18:05] Solicitud recibida: {"action":"delete","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:18:05] Acción: delete, Tabla: pasturas
+[2024-09-11 19:18:06] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:18:06] Acción: read, Tabla: pasturas
+[2024-09-11 19:18:08] Solicitud recibida: {"action":"delete","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:18:08] Acción: delete, Tabla: pasturas
+[2024-09-11 19:18:08] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:18:08] Acción: read, Tabla: pasturas
+[2024-09-11 19:18:33] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:18:33] Acción: read, Tabla: pasturas
+[2024-09-11 19:18:41] Solicitud recibida: {"action":"read","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:18:41] Acción: read, Tabla: pasturas
+[2024-09-11 19:18:42] Solicitud recibida: {"action":"read","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:18:42] Acción: read, Tabla: pasturas
+[2024-09-11 19:18:44] Solicitud recibida: {"action":"delete","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-11 19:18:44] Acción: delete, Tabla: pasturas
+[2024-09-11 19:18:45] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:18:45] Acción: read, Tabla: pasturas
+[2024-09-11 19:20:25] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-11 19:20:25] Acción: read, Tabla: riego
+[2024-09-11 19:20:26] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-11 19:20:26] Acción: read, Tabla: pasturas
+[2024-09-11 19:20:27] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-11 19:20:27] Acción: read, Tabla: cercado
+[2024-09-12 19:13:13] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 19:13:13] Acción: read, Tabla: pasturas
+[2024-09-12 19:14:21] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"1\",\"precio\":\"1\",\"existencia\":\"1\"}"}
+[2024-09-12 19:14:21] Acción: create, Tabla: pasturas
+[2024-09-12 19:14:21] Intentando crear: tabla=pasturas, data={"producto":"1","precio":"1","existencia":"1"}
+[2024-09-12 19:14:21] SQL: INSERT INTO pasturas (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-12 19:14:21] Creación exitosa
+[2024-09-12 19:14:22] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 19:14:22] Acción: read, Tabla: pasturas
+[2024-09-12 19:14:26] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-12 19:14:26] Acción: read, Tabla: riego
+[2024-09-12 19:14:27] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-12 19:14:27] Acción: read, Tabla: cercado
+[2024-09-12 19:14:29] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 19:14:29] Acción: read, Tabla: pasturas
+[2024-09-12 19:26:13] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 19:26:13] Acción: read, Tabla: pasturas
+[2024-09-12 19:37:17] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 19:37:17] Acción: read, Tabla: pasturas
+[2024-09-12 19:37:48] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-12 19:37:48] Acción: read, Tabla: riego
+[2024-09-12 19:37:49] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-12 19:37:49] Acción: read, Tabla: cercado
+[2024-09-12 19:47:30] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 19:47:30] Acción: read, Tabla: pasturas
+[2024-09-12 19:50:53] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 19:50:53] Acción: read, Tabla: pasturas
+[2024-09-12 20:03:01] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 20:03:01] Acción: read, Tabla: pasturas
+[2024-09-12 20:06:16] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 20:06:16] Acción: read, Tabla: pasturas
+[2024-09-12 20:06:44] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-12 20:06:44] Acción: read, Tabla: riego
+[2024-09-12 20:06:45] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-12 20:06:45] Acción: read, Tabla: cercado
+[2024-09-12 20:17:12] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 20:17:12] Acción: read, Tabla: pasturas
+[2024-09-12 20:33:57] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 20:33:57] Acción: read, Tabla: pasturas
+[2024-09-12 20:35:21] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 20:35:21] Acción: read, Tabla: pasturas
+[2024-09-12 20:50:27] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 20:50:27] Acción: read, Tabla: pasturas
+[2024-09-12 20:50:46] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 20:50:46] Acción: read, Tabla: pasturas
+[2024-09-12 20:53:37] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 20:53:37] Acción: read, Tabla: pasturas
+[2024-09-12 20:54:40] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-12 20:54:40] Acción: read, Tabla: pasturas
+[2024-09-13 17:38:18] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 17:38:18] Acción: read, Tabla: pasturas
+[2024-09-13 17:43:11] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 17:43:11] Acción: read, Tabla: pasturas
+[2024-09-13 17:48:42] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 17:48:42] Acción: read, Tabla: pasturas
+[2024-09-13 17:52:00] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 17:52:00] Acción: read, Tabla: pasturas
+[2024-09-13 18:08:29] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 18:08:29] Acción: read, Tabla: pasturas
+[2024-09-13 18:28:20] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 18:28:20] Acción: read, Tabla: pasturas
+[2024-09-13 18:33:44] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 18:33:44] Acción: read, Tabla: pasturas
+[2024-09-13 18:42:41] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 18:42:41] Acción: read, Tabla: pasturas
+[2024-09-13 18:44:12] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 18:44:12] Acción: read, Tabla: pasturas
+[2024-09-13 18:44:41] Solicitud recibida: {"action":"create","table":"pasturas","data":"{\"producto\":\"1\",\"precio\":\"1\",\"existencia\":\"1\"}"}
+[2024-09-13 18:44:41] Acción: create, Tabla: pasturas
+[2024-09-13 18:44:41] Intentando crear: tabla=pasturas, data={"producto":"1","precio":"1","existencia":"1"}
+[2024-09-13 18:44:41] SQL: INSERT INTO pasturas (producto, precio, existencia, codigo_barras) VALUES (?, ?, ?, ?)
+[2024-09-13 18:44:41] Creación exitosa
+[2024-09-13 18:44:42] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 18:44:42] Acción: read, Tabla: pasturas
+[2024-09-13 18:44:53] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 18:44:53] Acción: read, Tabla: pasturas
+[2024-09-13 20:28:19] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 20:28:19] Acción: read, Tabla: pasturas
+[2024-09-13 20:42:26] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 20:42:26] Acción: read, Tabla: pasturas
+[2024-09-13 20:46:29] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 20:46:29] Acción: read, Tabla: pasturas
+[2024-09-13 20:46:29] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 20:46:29] Acción: read, Tabla: pasturas
+[2024-09-13 20:52:51] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 20:52:51] Acción: read, Tabla: pasturas
+[2024-09-13 20:55:05] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 20:55:05] Acción: read, Tabla: pasturas
+[2024-09-13 21:04:39] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:04:39] Acción: read, Tabla: pasturas
+[2024-09-13 21:05:02] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:05:02] Acción: read, Tabla: pasturas
+[2024-09-13 21:06:51] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:06:51] Acción: read, Tabla: pasturas
+[2024-09-13 21:07:08] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:07:08] Acción: read, Tabla: pasturas
+[2024-09-13 21:08:28] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:08:28] Acción: read, Tabla: pasturas
+[2024-09-13 21:17:03] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:17:03] Acción: read, Tabla: pasturas
+[2024-09-13 21:17:14] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:17:14] Acción: read, Tabla: pasturas
+[2024-09-13 21:19:26] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:19:26] Acción: read, Tabla: pasturas
+[2024-09-13 21:34:03] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:34:03] Acción: read, Tabla: pasturas
+[2024-09-13 21:34:11] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:34:11] Acción: read, Tabla: pasturas
+[2024-09-13 21:41:18] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:41:18] Acción: read, Tabla: pasturas
+[2024-09-13 21:43:04] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:43:04] Acción: read, Tabla: pasturas
+[2024-09-13 21:50:57] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:50:57] Acción: read, Tabla: pasturas
+[2024-09-13 21:51:26] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:51:26] Acción: read, Tabla: pasturas
+[2024-09-13 21:51:38] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-13 21:51:38] Acción: read, Tabla: pasturas
+[2024-09-15 05:28:19] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-15 05:28:19] Acción: read, Tabla: pasturas
+[2024-09-15 05:30:13] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-15 05:30:13] Acción: read, Tabla: riego
+[2024-09-16 04:19:58] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 04:19:58] Acción: read, Tabla: pasturas
+[2024-09-16 04:26:47] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 04:26:47] Acción: read, Tabla: pasturas
+[2024-09-16 04:26:53] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 04:26:53] Acción: read, Tabla: pasturas
+[2024-09-16 04:27:44] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 04:27:44] Acción: read, Tabla: pasturas
+[2024-09-16 04:28:31] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 04:28:31] Acción: read, Tabla: pasturas
+[2024-09-16 04:34:23] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 04:34:23] Acción: read, Tabla: pasturas
+[2024-09-16 04:42:06] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 04:42:06] Acción: read, Tabla: pasturas
+[2024-09-16 04:51:20] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 04:51:20] Acción: read, Tabla: pasturas
+[2024-09-16 04:56:39] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 04:56:39] Acción: read, Tabla: pasturas
+[2024-09-16 05:05:43] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 05:05:43] Acción: read, Tabla: pasturas
+[2024-09-16 05:09:36] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 05:09:36] Acción: read, Tabla: pasturas
+[2024-09-16 05:10:34] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 05:10:34] Acción: read, Tabla: pasturas
+[2024-09-16 05:54:58] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 05:54:58] Acción: read, Tabla: pasturas
+[2024-09-16 06:06:53] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 06:06:53] Acción: read, Tabla: pasturas
+[2024-09-16 06:14:50] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 06:14:50] Acción: read, Tabla: pasturas
+[2024-09-16 06:21:57] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 06:21:57] Acción: read, Tabla: pasturas
+[2024-09-16 06:26:30] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 06:26:30] Acción: read, Tabla: pasturas
+[2024-09-16 06:28:53] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 06:28:53] Acción: read, Tabla: pasturas
+[2024-09-16 06:29:28] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 06:29:28] Acción: read, Tabla: pasturas
+[2024-09-16 23:20:55] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 23:20:55] Acción: read, Tabla: pasturas
+[2024-09-16 23:22:02] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 23:22:02] Acción: read, Tabla: pasturas
+[2024-09-16 23:22:08] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 23:22:08] Acción: read, Tabla: pasturas
+[2024-09-16 23:22:14] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 23:22:14] Acción: read, Tabla: pasturas
+[2024-09-16 23:36:25] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 23:36:25] Acción: read, Tabla: pasturas
+[2024-09-16 23:37:36] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 23:37:36] Acción: read, Tabla: pasturas
+[2024-09-16 23:39:47] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 23:39:47] Acción: read, Tabla: pasturas
+[2024-09-16 23:40:18] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 23:40:18] Acción: read, Tabla: pasturas
+[2024-09-16 23:46:32] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-16 23:46:32] Acción: read, Tabla: pasturas
+[2024-09-17 04:42:05] Excepción no capturada: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2024-09-17 05:07:26] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-17 05:07:26] Acción: read, Tabla: pasturas
+[2024-09-17 05:11:11] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-17 05:11:11] Acción: read, Tabla: pasturas
+[2024-09-17 05:12:46] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-17 05:12:46] Acción: read, Tabla: pasturas
+[2024-09-19 03:56:00] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 03:56:00] Acción: read, Tabla: pasturas
+[2024-09-19 03:56:46] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-19 03:56:46] Acción: read, Tabla: riego
+[2024-09-19 03:56:47] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-19 03:56:47] Acción: read, Tabla: cercado
+[2024-09-19 03:56:48] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 03:56:48] Acción: read, Tabla: pasturas
+[2024-09-19 03:56:50] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-19 03:56:50] Acción: read, Tabla: cercado
+[2024-09-19 03:56:51] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-19 03:56:51] Acción: read, Tabla: riego
+[2024-09-19 03:56:52] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-19 03:56:52] Acción: read, Tabla: cercado
+[2024-09-19 03:56:52] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-19 03:56:52] Acción: read, Tabla: riego
+[2024-09-19 03:56:54] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 03:56:54] Acción: read, Tabla: pasturas
+[2024-09-19 03:56:55] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-19 03:56:55] Acción: read, Tabla: cercado
+[2024-09-19 03:56:59] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-19 03:56:59] Acción: read, Tabla: riego
+[2024-09-19 03:57:00] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 03:57:00] Acción: read, Tabla: pasturas
+[2024-09-19 03:57:36] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-19 03:57:36] Acción: read, Tabla: riego
+[2024-09-19 03:57:37] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-19 03:57:37] Acción: read, Tabla: cercado
+[2024-09-19 04:08:30] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-19 04:08:30] Acción: read, Tabla: riego
+[2024-09-19 04:08:30] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-19 04:08:30] Acción: read, Tabla: cercado
+[2024-09-19 04:08:31] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:08:31] Acción: read, Tabla: pasturas
+[2024-09-19 04:13:55] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:13:55] Acción: read, Tabla: pasturas
+[2024-09-19 04:18:44] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:18:44] Acción: read, Tabla: pasturas
+[2024-09-19 04:20:54] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:20:54] Acción: read, Tabla: pasturas
+[2024-09-19 04:21:36] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:21:36] Acción: read, Tabla: pasturas
+[2024-09-19 04:25:15] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:25:15] Acción: read, Tabla: pasturas
+[2024-09-19 04:26:03] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:26:03] Acción: read, Tabla: pasturas
+[2024-09-19 04:30:34] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:30:34] Acción: read, Tabla: pasturas
+[2024-09-19 04:34:01] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:34:01] Acción: read, Tabla: pasturas
+[2024-09-19 04:35:59] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:35:59] Acción: read, Tabla: pasturas
+[2024-09-19 04:38:16] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-19 04:38:16] Acción: read, Tabla: pasturas
+[2024-09-22 17:11:03] Solicitud recibida: []
+[2024-09-22 17:11:03] Acción: , Tabla: 
+[2024-09-22 17:11:24] Solicitud recibida: []
+[2024-09-22 17:11:24] Acción: , Tabla: 
+[2024-09-22 17:13:04] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:13:04] Acción: read, Tabla: pasturas
+[2024-09-22 17:15:07] Solicitud recibida: {"action":"read","table":"pasturas","codigo_barras":"undefined"}
+[2024-09-22 17:15:07] Acción: read, Tabla: pasturas
+[2024-09-22 17:15:09] Solicitud recibida: {"action":"update","table":"pasturas","codigo_barras":"undefined","data":"{}"}
+[2024-09-22 17:15:09] Acción: update, Tabla: pasturas
+[2024-09-22 17:15:09] Excepción no capturada: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE codigo_barras = ?' at line 1
+[2024-09-22 17:15:21] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-22 17:15:21] Acción: read, Tabla: riego
+[2024-09-22 17:15:22] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-22 17:15:22] Acción: read, Tabla: cercado
+[2024-09-22 17:24:59] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:24:59] Acción: read, Tabla: pasturas
+[2024-09-22 17:25:35] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:25:35] Acción: read, Tabla: pasturas
+[2024-09-22 17:25:51] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:25:51] Acción: read, Tabla: pasturas
+[2024-09-22 17:28:14] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:28:14] Acción: read, Tabla: pasturas
+[2024-09-22 17:31:55] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:31:55] Acción: read, Tabla: pasturas
+[2024-09-22 17:32:53] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:32:53] Acción: read, Tabla: pasturas
+[2024-09-22 17:33:32] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:33:32] Acción: read, Tabla: pasturas
+[2024-09-22 17:34:17] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:34:17] Acción: read, Tabla: pasturas
+[2024-09-22 17:34:39] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:34:39] Acción: read, Tabla: pasturas
+[2024-09-22 17:34:56] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:34:56] Acción: read, Tabla: pasturas
+[2024-09-22 17:43:52] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:43:52] Acción: read, Tabla: pasturas
+[2024-09-22 17:45:27] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:45:27] Acción: read, Tabla: pasturas
+[2024-09-22 17:49:42] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:49:42] Acción: read, Tabla: pasturas
+[2024-09-22 17:49:54] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:49:54] Acción: read, Tabla: pasturas
+[2024-09-22 17:50:22] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:50:22] Acción: read, Tabla: pasturas
+[2024-09-22 17:53:37] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:53:37] Acción: read, Tabla: pasturas
+[2024-09-22 17:54:07] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:54:07] Acción: read, Tabla: pasturas
+[2024-09-22 17:54:19] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:54:19] Acción: read, Tabla: pasturas
+[2024-09-22 17:54:46] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:54:46] Acción: read, Tabla: pasturas
+[2024-09-22 17:54:51] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:54:51] Acción: read, Tabla: pasturas
+[2024-09-22 17:55:19] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:55:19] Acción: read, Tabla: pasturas
+[2024-09-22 17:56:04] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:56:04] Acción: read, Tabla: pasturas
+[2024-09-22 17:56:18] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:56:18] Acción: read, Tabla: pasturas
+[2024-09-22 17:56:27] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:56:27] Acción: read, Tabla: pasturas
+[2024-09-22 17:56:37] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:56:37] Acción: read, Tabla: pasturas
+[2024-09-22 17:58:15] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 17:58:15] Acción: read, Tabla: pasturas
+[2024-09-22 18:00:16] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:00:16] Acción: read, Tabla: pasturas
+[2024-09-22 18:00:32] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:00:32] Acción: read, Tabla: pasturas
+[2024-09-22 18:00:38] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:00:38] Acción: read, Tabla: pasturas
+[2024-09-22 18:00:59] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:00:59] Acción: read, Tabla: pasturas
+[2024-09-22 18:05:07] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:05:07] Acción: read, Tabla: pasturas
+[2024-09-22 18:08:14] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:08:14] Acción: read, Tabla: pasturas
+[2024-09-22 18:08:53] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:08:53] Acción: read, Tabla: pasturas
+[2024-09-22 18:25:48] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:25:48] Acción: read, Tabla: pasturas
+[2024-09-22 18:27:18] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:27:18] Acción: read, Tabla: pasturas
+[2024-09-22 18:27:35] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:27:35] Acción: read, Tabla: pasturas
+[2024-09-22 18:31:15] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:31:15] Acción: read, Tabla: pasturas
+[2024-09-22 18:34:20] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:34:20] Acción: read, Tabla: pasturas
+[2024-09-22 18:38:18] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:38:18] Acción: read, Tabla: pasturas
+[2024-09-22 18:38:26] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:38:26] Acción: read, Tabla: pasturas
+[2024-09-22 18:38:41] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:38:41] Acción: read, Tabla: pasturas
+[2024-09-22 18:38:51] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:38:51] Acción: read, Tabla: pasturas
+[2024-09-22 18:42:05] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:42:05] Acción: read, Tabla: pasturas
+[2024-09-22 18:45:38] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:45:38] Acción: read, Tabla: pasturas
+[2024-09-22 18:47:49] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:47:49] Acción: read, Tabla: pasturas
+[2024-09-22 18:50:20] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:50:20] Acción: read, Tabla: pasturas
+[2024-09-22 18:53:32] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:53:32] Acción: read, Tabla: pasturas
+[2024-09-22 18:58:06] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-22 18:58:06] Acción: read, Tabla: riego
+[2024-09-22 18:58:07] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-22 18:58:07] Acción: read, Tabla: cercado
+[2024-09-22 18:58:08] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 18:58:08] Acción: read, Tabla: pasturas
+[2024-09-22 19:00:54] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:00:54] Acción: read, Tabla: pasturas
+[2024-09-22 19:02:56] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:02:56] Acción: read, Tabla: pasturas
+[2024-09-22 19:03:22] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:03:22] Acción: read, Tabla: pasturas
+[2024-09-22 19:04:47] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:04:47] Acción: read, Tabla: pasturas
+[2024-09-22 19:05:58] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:05:58] Acción: read, Tabla: pasturas
+[2024-09-22 19:09:27] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:09:27] Acción: read, Tabla: pasturas
+[2024-09-22 19:10:04] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:10:04] Acción: read, Tabla: pasturas
+[2024-09-22 19:10:18] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:10:18] Acción: read, Tabla: pasturas
+[2024-09-22 19:10:54] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:10:54] Acción: read, Tabla: pasturas
+[2024-09-22 19:13:38] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:13:38] Acción: read, Tabla: pasturas
+[2024-09-22 19:14:50] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:14:50] Acción: read, Tabla: pasturas
+[2024-09-22 19:15:26] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-22 19:15:26] Acción: read, Tabla: riego
+[2024-09-22 19:15:27] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-22 19:15:27] Acción: read, Tabla: cercado
+[2024-09-22 19:15:28] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:15:28] Acción: read, Tabla: pasturas
+[2024-09-22 19:15:32] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:15:32] Acción: read, Tabla: pasturas
+[2024-09-22 19:15:44] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:15:44] Acción: read, Tabla: pasturas
+[2024-09-22 19:23:48] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:23:48] Acción: read, Tabla: pasturas
+[2024-09-22 19:24:13] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:24:13] Acción: read, Tabla: pasturas
+[2024-09-22 19:25:06] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:25:06] Acción: read, Tabla: pasturas
+[2024-09-22 19:25:44] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:25:44] Acción: read, Tabla: pasturas
+[2024-09-22 19:34:33] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:34:33] Acción: read, Tabla: pasturas
+[2024-09-22 19:40:36] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:40:36] Acción: read, Tabla: pasturas
+[2024-09-22 19:40:57] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:40:57] Acción: read, Tabla: pasturas
+[2024-09-22 19:44:52] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:44:52] Acción: read, Tabla: pasturas
+[2024-09-22 19:46:48] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:46:48] Acción: read, Tabla: pasturas
+[2024-09-22 19:47:45] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:47:45] Acción: read, Tabla: pasturas
+[2024-09-22 19:48:33] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:48:33] Acción: read, Tabla: pasturas
+[2024-09-22 19:48:50] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:48:50] Acción: read, Tabla: pasturas
+[2024-09-22 19:48:57] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:48:57] Acción: read, Tabla: pasturas
+[2024-09-22 19:50:35] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:50:35] Acción: read, Tabla: pasturas
+[2024-09-22 19:50:45] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:50:45] Acción: read, Tabla: pasturas
+[2024-09-22 19:51:03] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:51:03] Acción: read, Tabla: pasturas
+[2024-09-22 19:51:15] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:51:15] Acción: read, Tabla: pasturas
+[2024-09-22 19:51:29] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:51:29] Acción: read, Tabla: pasturas
+[2024-09-22 19:51:41] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:51:41] Acción: read, Tabla: pasturas
+[2024-09-22 19:52:10] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:52:10] Acción: read, Tabla: pasturas
+[2024-09-22 19:52:39] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:52:39] Acción: read, Tabla: pasturas
+[2024-09-22 19:53:49] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:53:49] Acción: read, Tabla: pasturas
+[2024-09-22 19:56:15] Solicitud recibida: {"action":"read","table":"riego"}
+[2024-09-22 19:56:15] Acción: read, Tabla: riego
+[2024-09-22 19:56:16] Solicitud recibida: {"action":"read","table":"cercado"}
+[2024-09-22 19:56:16] Acción: read, Tabla: cercado
+[2024-09-22 19:56:17] Solicitud recibida: {"action":"read","table":"pasturas"}
+[2024-09-22 19:56:17] Acción: read, Tabla: pasturas
